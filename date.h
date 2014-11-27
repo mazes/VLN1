@@ -4,7 +4,12 @@
 class date
 {
 public:
-    date();
+    date(int day, int month, int year);
+    void get_date();
+private:
+    int day;
+    int month;
+    int year;
 };
 
 #endif // DATE_H
